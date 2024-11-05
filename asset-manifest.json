@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/moramontajes/static/css/main.705bdb10.css",
-    "main.js": "/moramontajes/static/js/main.068cd8dd.js",
+    "main.js": "/moramontajes/static/js/main.8e27b5b0.js",
     "static/js/453.362cb368.chunk.js": "/moramontajes/static/js/453.362cb368.chunk.js",
     "static/media/Piping3.JPG": "/moramontajes/static/media/Piping3.e70acb772de1729600e7.JPG",
     "static/media/Piping2.JPG": "/moramontajes/static/media/Piping2.ff826c8a1d255006c6cf.JPG",
@@ -40,11 +40,11 @@
     "static/media/slick.woff": "/moramontajes/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/moramontajes/index.html",
     "main.705bdb10.css.map": "/moramontajes/static/css/main.705bdb10.css.map",
-    "main.068cd8dd.js.map": "/moramontajes/static/js/main.068cd8dd.js.map",
+    "main.8e27b5b0.js.map": "/moramontajes/static/js/main.8e27b5b0.js.map",
     "453.362cb368.chunk.js.map": "/moramontajes/static/js/453.362cb368.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.705bdb10.css",
-    "static/js/main.068cd8dd.js"
+    "static/js/main.8e27b5b0.js"
   ]
 }
