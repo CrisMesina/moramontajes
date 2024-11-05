@@ -64,25 +64,25 @@ export const Footer = () => {
                     <li className="mx-5 my-2">
                         <div className="flex">
                             <span className='text-lg'>▶</span>
-                            <span className="mx-2" ><a href="/#servicios/Piping/" className="hover:text-blue-600">Piping en Acero Inoxidable y Acero Carbono</a></span>
+                            <span className="mx-2" ><a href="/moramontajes/#servicios/Piping/" className="hover:text-blue-600">Piping en Acero Inoxidable y Acero Carbono</a></span>
                         </div>
                     </li>
                     <li className="mx-5 my-2">
                         <div className="flex">
                             <span className='text-lg'>▶</span>
-                            <span className="mx-2" ><a href="/#servicios/Acero" className="hover:text-blue-600">Estructuras y Plataformas Acero</a></span>
+                            <span className="mx-2" ><a href="/moramontajes/#servicios/Acero" className="hover:text-blue-600">Estructuras y Plataformas Acero</a></span>
                         </div>
                     </li>
                     <li className="mx-5 my-2">
                         <div className="flex">
                             <span className='text-lg'>▶</span>
-                            <span className="mx-2" ><a href="/#servicios/Transportadores/" className="hover:text-blue-600">Transportadores de banda</a></span>
+                            <span className="mx-2" ><a href="/moramontajes/#servicios/Transportadores/" className="hover:text-blue-600">Transportadores de banda</a></span>
                         </div>
                     </li>
                     <li className="mx-5 my-2">
                         <div className="flex">
                             <span className='text-lg'>▶</span>
-                            <span className="mx-2" ><a href="/#servicios/Caldeceria/" className="hover:text-blue-600">Caldeceria, Corte y Plegados</a></span>
+                            <span className="mx-2" ><a href="/moramontajes/#servicios/Caldeceria/" className="hover:text-blue-600">Caldeceria, Corte y Plegados</a></span>
                         </div>
                     </li>
                 </div>
@@ -90,7 +90,7 @@ export const Footer = () => {
                     <li className="mx-5 my-2">
                         <div className="flex">
                             <span className='text-lg'>▶</span>
-                            <span className="mx-2" ><a href="/#servicios/CortesCNC/" className="hover:text-blue-600">Servicios de Corte CNC</a></span>
+                            <span className="mx-2" ><a href="/moramontajes/#servicios/CortesCNC/" className="hover:text-blue-600">Servicios de Corte CNC</a></span>
                         </div>
                     </li>
                 </div>
