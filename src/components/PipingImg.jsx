@@ -1,6 +1,6 @@
 import React from "react";
 import { Footer } from "./Footer";
-import Piping from '../images/phone.png'
+import Piping from '../images/Piping.JPG'
 import Piping2 from '../images/Piping2.JPG'
 import Piping3 from '../images/Piping3.JPG'
 import Piping4 from '../images/Piping4.JPG'
