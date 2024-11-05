@@ -35,7 +35,7 @@ export const Header = () => {
     
     <nav className="flex flex-wrap items-center justify-between p-6 text-center mx-auto">
         <div className="flex items-center flex-shrink-0 text-white">
-            <a href="/">
+            <a href="/moramontajes/">
               <img src={Logo} className='w-16' alt="" />
             </a>
         </div>
@@ -50,10 +50,10 @@ export const Header = () => {
                 <a href="/moramontajes/#servicios/" className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-gray-500 mr-8">
                     Servicios
                 </a>
-                <a href="#nosotros" className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-gray-500 mr-8">
+                <a href="/moramontajes#nosotros" className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-gray-500 mr-8">
                     Sobre Nosotros
                 </a>
-                <a href="/#contactanos/" className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-gray-500">
+                <a href="/moramontajes/#contactanos/" className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-gray-500">
                     Contactanos
                 </a>
             </div>

@@ -13,19 +13,19 @@ export const Servicios = () => {
             <div  className='w-full text-center'>
                 <ul className='w-full inline-block list-decimal'>
                    <li className='my-2' >
-                        <a href="/#servicios/Piping/" className='mx-2  hover:text-blue-700' >▶ Piping en Acero Inoxidable y Acero Carbono</a>
+                        <a href="/moramontajes/#servicios/Piping/" className='mx-2  hover:text-blue-700' >▶ Piping en Acero Inoxidable y Acero Carbono</a>
                    </li>
                    <li className='my-2' >
-                        <a href="/#servicios/Acero/" className='mx-2  hover:text-blue-700' >▶ Estructuras y Plataformas de Acero</a>
+                        <a href="/moramontajes/#servicios/Acero/" className='mx-2  hover:text-blue-700' >▶ Estructuras y Plataformas de Acero</a>
                    </li>
                    <li className='my-2' >
-                        <a href="/#servicios/Transportadores/" className='mx-2  hover:text-blue-700' >▶ Transportadores de Banda</a>
+                        <a href="/moramontajes/#servicios/Transportadores/" className='mx-2  hover:text-blue-700' >▶ Transportadores de Banda</a>
                     </li>
                    <li className='my-2' >                    
-                        <a href="/#servicios/Caldeceria/" className='mx-2  hover:text-blue-700' >▶ Caldeceria, Corte y plegados</a>
+                        <a href="/moramontajes/#servicios/Caldeceria/" className='mx-2  hover:text-blue-700' >▶ Caldeceria, Corte y plegados</a>
                     </li>
                    <li className='my-2' >
-                        <a href="/#servicios/CortesCNC/" className='mx-2 hover:text-blue-700' >▶ Servicios de Corte CNC</a>
+                        <a href="/moramontajes/#servicios/CortesCNC/" className='mx-2 hover:text-blue-700' >▶ Servicios de Corte CNC</a>
                    </li>
                 </ul>
             </div>
