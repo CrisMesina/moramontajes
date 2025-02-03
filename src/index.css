@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+#hero-title{
+    font-family: "Bowlby One SC", serif;
+    font-size: 80px;
+    background: -webkit-linear-gradient(#3674B5, #493D9E);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#imagen{
+    border-radius: 46% 54% 25% 75% / 65% 32% 68% 35%;
+}
