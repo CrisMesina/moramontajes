@@ -1,3 +1,4 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -15,4 +16,12 @@
 
 #imagen{
     border-radius: 46% 54% 25% 75% / 65% 32% 68% 35%;
+}
+
+
+
+@media (min-width: 300px){
+    #hero-title{
+        font-size: 60px;
+    }
 }

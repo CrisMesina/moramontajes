@@ -11,6 +11,9 @@ export default {
     extend: {
       colors:{
         "gold" : "#efb810"
+      },
+      screen: {
+        "phone" : "600px"
       }
     },
   },
