@@ -12,8 +12,9 @@ export default {
       colors:{
         "gold" : "#efb810"
       },
-      screen: {
-        "phone" : "600px"
+      screens: {
+        "phone" : "600px",
+        "phone-sm": "300px"
       }
     },
   },

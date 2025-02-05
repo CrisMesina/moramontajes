@@ -32,7 +32,7 @@ const data = [
 export const ServicesList = () => {
   return (
     <>
-        <div className="mx-32 grid grid-cols-1 md:grid-cols-3">
+        <div className="h-auto mx-32 phone:mx-0 phone-sm:mx-10 sm:mx-32 md:mx-32 my-10 grid grid-cols-1 md:grid-cols-4 sm:grid-cols-1">
             {data.map((data)=>(
                 <div>
                     <ServicesCard

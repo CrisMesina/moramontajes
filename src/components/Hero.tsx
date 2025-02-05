@@ -3,9 +3,9 @@
 export const Hero = () => {
   return (
     <>
-     <div>
-        <div className="flex w-full">
-          <video loop muted autoPlay disablePictureInPicture playsInline className="absolute w-full h-[500px] mt-24 object-cover p-2 rounded-3xl -z-10">
+     <div className="">
+        <div className="flex sm:w-96 phone:w-[600px] md:w-screen lg:md-screen w-full phone-sm:w-screen">
+          <video loop muted autoPlay disablePictureInPicture playsInline className="absolute h-[500px] w-full md:w-full sm:w-[390px] lg:w-full phone:w-[630px] phone-sm:w-[1270px] mt-24 object-cover p-2 rounded-3xl -z-10">
             <source src="/bg-Hero.mp4" type="video/mp4"/>
           </video>  
         </div>

@@ -9,8 +9,8 @@ export const Home = () => {
     <>
         <Nav/>
         <Hero/>
-        <About/>
         <GoServices/>
+        <About/>
         <Footer/>
     </>
   )

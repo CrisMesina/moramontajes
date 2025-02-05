@@ -4,7 +4,7 @@ export const Nav = () => {
   return (
     <>
         <nav className="fixed top-0 left-0 right-0 z-10 text-center opacity-95 bg-slate-300">
-            <div className="max-w-screen-xl flex flex-wrap justify-between mx-auto p-4">
+            <div className="md:w-screen sm:w-full lg:w-full flex flex-wrap justify-between p-4 phone:w-96 w-screen">
                 <a href="/">
                     <img src="/logo.png" className="w-16" alt="" />
                 </a>
