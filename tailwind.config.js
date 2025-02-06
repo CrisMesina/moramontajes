@@ -14,7 +14,9 @@ export default {
       },
       screens: {
         "phone" : "600px",
-        "phone-sm": "300px"
+        "phone-sm": "300px",
+        "phone-md": "400px",
+        "iphone": "360px"
       }
     },
   },

@@ -1,14 +1,16 @@
 import { RxHamburgerMenu } from "react-icons/rx"
 
 export const Nav = () => {
+
+
   return (
     <>
-        <nav className="fixed top-0 left-0 right-0 z-10 text-center opacity-95 bg-slate-300">
-            <div className="md:w-screen sm:w-full lg:w-full flex flex-wrap justify-between p-4 phone:w-96 w-screen">
+        <nav className="fixed top-0 left-0 right-0 z-10 text-center opacity-95 bg-slate-300 w-full">
+            <div className=" flex flex-wrap justify-between p-4 min-w-max">
                 <a href="/">
                     <img src="/logo.png" className="w-16" alt="" />
                 </a>
-                <button data-collapse-toggle="navbar-default" type="button" className="inline-flex items-center p-2 mt-2 w-12 h-12 justify-center text-sm text-black rounded-lg md:hidden focus:outline focus:ring-2" aria-controls="navbar-default" aria-expanded="false">
+                <button data-collapse-toggle="navbar-default" type="button" className="inline-flex items-center p-2 mt-2 w-12 h-12 mr-20 text-sm text-black rounded-lg md:hidden focus:outline focus:ring-2 " aria-controls="navbar-default" aria-expanded="false">
                     <span className="sr-only">Abrir Menu Principal</span>
                     <RxHamburgerMenu className="w-8 h-8"/>
                 </button>
@@ -25,3 +27,5 @@ export const Nav = () => {
     </>
   )
 }
+
+

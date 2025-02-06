@@ -7,11 +7,13 @@ import { Nav } from "../components/Nav"
 export const Home = () => {
   return (
     <>
-        <Nav/>
-        <Hero/>
-        <GoServices/>
-        <About/>
-        <Footer/>
+        <div className="w-full md:w-full sm:w-screen phone:w-screen phone-sm:w-[300px]">
+          <Nav/>
+          <Hero/>
+          <GoServices/>
+          <About/>
+          <Footer/>
+        </div>
     </>
   )
 }
