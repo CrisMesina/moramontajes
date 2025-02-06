@@ -1,29 +1,85 @@
-import { RxHamburgerMenu } from "react-icons/rx"
+import type React from "react"
+import { useState } from "react"
+import { FiMenu } from "react-icons/fi";
+import { ImCancelCircle } from "react-icons/im";
+// Definimos una interfaz para los elementos del menú
+interface MenuItem {
+  label: string
+  href: string
+}
 
-export const Nav = () => {
+// Definimos los elementos del menú
+const menuItems: MenuItem[] = [
+  { label: "Inicio", href: "/" },
+  { label: "Servicios", href: "/servicios/" },
+  { label: "Sobre Nosotros", href: "/nosotros/" },
+  { label: "Contactenos", href: "/contacto/" },
+]
 
+export const Nav: React.FC = () => {
+  // Estado para controlar la visibilidad del menú en dispositivos móviles
+  const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false)
+
+  // Función para alternar la visibilidad del menú
+  const toggleMenu = () => setIsMenuOpen(!isMenuOpen)
 
   return (
     <>
-        <nav className="fixed top-0 left-0 right-0 z-10 text-center opacity-95 bg-slate-300 w-full">
-            <div className=" flex flex-wrap justify-between p-4 min-w-max">
-                <a href="/">
-                    <img src="/logo.png" className="w-16" alt="" />
+    <nav className="fixed top-0 left-0 right-0 bg-slate-300 shadow-md z-50">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="flex items-center justify-between h-24">
+          {/* Logo */}
+          <div className="flex-shrink-0">
+            <a href="#" className="text-xl font-bold text-gray-800">
+              <img src="/logo.png" className="w-16" alt="" />
+            </a>
+          </div>
+
+          {/* Menú para pantallas medianas y grandes */}
+          <div className="hidden md:block">
+            <div className="ml-10 flex items-baseline space-x-4">
+              {menuItems.map((item, index) => (
+                <a
+                  key={index}
+                  href={item.href}
+                  className="text-gray-600 hover:text-gray-900 px-3 py-2 rounded-md text-xl font-medium"
+                >
+                  {item.label}
                 </a>
-                <button data-collapse-toggle="navbar-default" type="button" className="inline-flex items-center p-2 mt-2 w-12 h-12 mr-20 text-sm text-black rounded-lg md:hidden focus:outline focus:ring-2 " aria-controls="navbar-default" aria-expanded="false">
-                    <span className="sr-only">Abrir Menu Principal</span>
-                    <RxHamburgerMenu className="w-8 h-8"/>
-                </button>
-                <div className="hidden w-full md:block md:w-auto" id="navbar-default">
-                    <ul className="font-medium text-lg flex flex-col p-4 md:p-0 mt-4 rounded-lg border md:border-0 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 bg-slate-300">
-                        <li><a href="/" className="block py-4 px-3 rounded text-black hover:bg-gray-500 md:hover:bg-transparent md:hover:text-blue-700" aria-current="page">Inicio</a></li>
-                        <li><a href="/servicios/" className="block py-2 px-3 my-2 text-black rounded hover:bg-gray-400 md:hover:bg-transparent md:hover:text-blue-700">Servicios</a></li>
-                        <li><a href="/nosotros/" className="block py-2 px-3 my-2 text-black rounded hover:bg-gray-400 md:hover:bg-transparent md:hover:text-blue-700">Sobre Nosotros</a></li>
-                        <li><a href="/contacto/" className="block py-2 px-3 my-2 text-black rounded hover:bg-gray-400 md:hover:bg-transparent md:hover:text-blue-700">Contactanos</a></li>
-                    </ul>
-                </div>
+              ))}
             </div>
-        </nav>
+          </div>
+
+          {/* Botón de menú para dispositivos móviles */}
+          <div className="md:hidden">
+            <button
+              onClick={toggleMenu}
+              className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+            >
+              <span className="sr-only">Abrir menú principal</span>
+              {isMenuOpen ? <ImCancelCircle className="h-6 w-6" /> : <FiMenu className="h-6 w-6" />}
+            </button>
+          </div>
+        </div>
+      </div>
+
+      {/* Menú móvil */}
+      {isMenuOpen && (
+        <div className="md:hidden">
+          <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+            {menuItems.map((item, index) => (
+              <a
+                key={index}
+                href={item.href}
+                className="text-gray-600 hover:text-gray-900 block px-3 py-2 rounded-md text-base font-medium"
+              >
+                {item.label}
+              </a>
+            ))}
+          </div>
+        </div>
+      )}
+    </nav>
     </>
   )
 }
