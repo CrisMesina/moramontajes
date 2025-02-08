@@ -19,9 +19,31 @@
 }
 
 
-
+@media(min-width:200){
+    #hero-title{
+        font-size: 10px;
+    }
+}
 @media (min-width: 300px){
     #hero-title{
-        font-size: 60px;
+        font-size: 20px;
+    }
+}
+
+
+@media (min-width: 400px){
+    #hero-title{
+        font-size: 40px;
+    }
+}
+@media(min-width:500px){
+    #hero-title{
+        font-size: 50px;
+    }
+}
+
+@media(min-width:768px){
+    #hero-title{
+        font-size: 80px;
     }
 }
