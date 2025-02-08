@@ -13,6 +13,7 @@ export default {
         "gold" : "#efb810"
       },
       screens: {
+        "200": "200px",
         "xs": "300px",
         "phone-sm": "400px",
         "phone-md":"500px",

@@ -36,7 +36,7 @@ export const Nav: React.FC = () => {
                 <a
                   key={index}
                   href={item.href}
-                  className="text-gray-600 hover:text-gray-900 px-2 py-2 rounded-md text-base font-medium"
+                  className="text-gray-600 hover:text-gray-900 px-2 py-2 rounded-md font-medium"
                 >
                   {item.label}
                 </a>
@@ -47,13 +47,13 @@ export const Nav: React.FC = () => {
           <div className="md:hidden">
             <button
               onClick={toggleMenu}
-              className="inline-flex items-center justify-center p-1 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+              className="inline-flex items-center justify-center p-1 rounded-md text-black hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
             >
               <span className="sr-only">Abrir menú principal</span>
               {isMenuOpen ? (
                 <ImCancelCircle className="h-5 w-5" />
               ) : (
-                <FiMenu className="h-5 w-5" />
+                <FiMenu className="h-5 w-5 " />
               )}
             </button>
           </div>

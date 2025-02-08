@@ -7,7 +7,7 @@ import { FaLocationDot } from "react-icons/fa6";
 export const Footer = () => {
   return (
     <footer id='contacto' className="flex flex-row w-full phone-sm:w-100 min-h-full phone-md:w-[500px] phone-lg:w-[600px] md:w-full text-sm mt-10 bg-slate-600">
-        <div className="w-64 list-none text-white my-5">
+        <div className="w-full list-none text-white my-5">
             <div className="flex justify-center">
                 <RiContactsBook2Fill className='w-4 h-4'/>
                 <h1 className="text-center">Contactanos</h1>

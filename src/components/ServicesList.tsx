@@ -32,9 +32,9 @@ const data = [
 export const ServicesList = () => {
   return (
     <>
-        <div className="h-auto mx-32 phone:mx-0 phone-sm:mx-12 sm:mx-32 md:mx-32 my-10 grid grid-cols-1 md:grid-cols-4 sm:grid-cols-1">
+        <div className="h-auto w-full my-10 grid grid-cols-1 md:grid-cols-3 sm:grid-cols-2 lg:grid-cols-4">
             {data.map((data)=>(
-                <div>
+                <div className="mx-auto">
                     <ServicesCard
                         key={data.id}
                         title={data.name}
