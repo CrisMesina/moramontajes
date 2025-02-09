@@ -28,7 +28,7 @@ export const CorteSlider: React.FC<CorteSliderProps> = ({ corte }) => {
   return (
     <div className="relative w-full max-w-4xl mx-auto h-[500px]">
         <div className='p-2 text-slate-500 font-bold text-center'>
-            <span>Actualmente estas en: <a href="/">/</a><a href="/servicios/">Servicios/</a><a href="/servicios/CCP/">Corte_y_plegado</a></span>
+            <span>Actualmente estas en: <a href="/">/</a><a href="/servicios/">Servicios/</a><a href="/servicios/CCP/">Corte_y_plegado_Corte_CNC</a></span>
         </div>
       <div
         className="w-full h-full rounded-xl bg-center bg-cover duration-500"

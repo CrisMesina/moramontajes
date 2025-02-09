@@ -22,7 +22,7 @@ const data = [
     },
     {
         id: 4,
-        name: "Corte y plegado",
+        name: "Corte y plegado Corte CNC",
         href: "/servicios/CCP",
         imgURL: "/iconPlegado.svg"
     },

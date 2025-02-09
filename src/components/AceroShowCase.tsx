@@ -5,23 +5,23 @@ import AceroSlider from './AceroSlider';
 const Acero: acero[] = [
   {
     id: 1,
-    imgURL: "/Acero.jpg",
+    imgURL: "/Acero6.JPG",
   },
   {
     id: 2,
-    imgURL: "/Acero2.jpg",
+    imgURL: "/Acero7.JPG",
   },
   {
     id: 3,
-    imgURL: "/Acero3.jpg",
+    imgURL: "/Acero8.JPG",
   },
   {
     id:4,
-    imgURL: "/Acero4.jpg"
+    imgURL: "/Acero9.JPG"
   },
   {
     id:5,
-    imgURL:"/Acero5.jpg"
+    imgURL:"/Acero10.JPG"
   }
 
 ];
