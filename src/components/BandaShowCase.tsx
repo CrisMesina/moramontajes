@@ -6,24 +6,28 @@ import BandaSlider from './BandaSlider';
 const Banda: banda[] = [
   {
     id: 1,
-    imgURL: "/Banda.jpg",
+    imgURL: "/Banda6.JPG",
   },
   {
     id: 2,
-    imgURL: "/Banda2.jpg",
+    imgURL: "/Banda7.JPG",
   },
   {
     id: 3,
-    imgURL: "/Banda3.jpg",
+    imgURL: "/Banda8.JPG",
   },
   {
     id:4,
-    imgURL: "/Banda4.jpg"
+    imgURL: "/Banda9.JPG"
   },
   {
     id:5,
-    imgURL:"/Banda5.jpg"
-  }
+    imgURL:"/Banda10.JPG"
+  },
+  {
+    id:6,
+    imgURL:"/Banda11.jpg"
+  },
 ];
 
 const BandaShowCase: React.FC = () => {

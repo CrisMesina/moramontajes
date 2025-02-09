@@ -5,23 +5,23 @@ import { piping } from '../types/Items_Slider';
 const Piping: piping[] = [
   {
     id: 1,
-    imgURL: "/Piping.JPG",
+    imgURL: "/Piping6.jpg",
   },
   {
     id: 2,
-    imgURL: "/Piping2.JPG",
+    imgURL: "/Piping7.JPG",
   },
   {
     id: 3,
-    imgURL: "/Piping3.JPG",
+    imgURL: "/Piping8.JPG",
   },
   {
     id:4,
-    imgURL: "/Piping4.JPG"
+    imgURL: "/Piping9.JPG"
   },
   {
     id:5,
-    imgURL:"/Piping5.JPG"
+    imgURL:"/Piping10.JPG"
   }
 ];
 
