@@ -23,7 +23,7 @@ export const Footer = () => {
                                 <span className="mx-2" >jmora@moramontajes.com</span>                    
                             </div>
                             <div className='flex'>
-                                <span className="mx-2" >Claudio.mesina@moramontajes.com</span>
+                                <span className="mx-2" >claudio.mesina@moramontajes.com</span>
                             </div>
                        </div>
                     </div>

@@ -23,6 +23,7 @@ const Acero: acero[] = [
     id:5,
     imgURL:"/Acero5.jpg"
   }
+
 ];
 
 const AceroShowCase: React.FC = () => {

@@ -27,7 +27,11 @@ export const About = () => {
             </div>
               <div>
                   <h3 className="text-center font-bold text-2xl">Mision</h3>
-                  <p className="text-center w-64 phone-sm:w-80 phone-md:w-96 p-2 text-sm">Nuestro principal objetivo es satisfacer los requerimientos de nuestros clientes, garantizando la calidad del producto y la seguridad durante todo el preceso productivo y durante la vida útil de nuestros equipos</p>
+                  <p className="text-center w-64 phone-sm:w-80 phone-md:w-96 p-2 text-sm">
+                    Nuestro principal objetivo es satisfacer los requerimientos de nuestros clientes, 
+                    garantizando la calidad del producto y la seguridad durante todo el preceso productivo y
+                     durante la vida útil de nuestros equipos
+                     </p>
               </div>
           </div>
           <div className="border rounded w-64 phone-sm:w-80 phone-md:w-96 phone-lg:w-[400px] phone-lg:mx-24 mx-4 phone-sm:mx-10 phone-md:mx-16 md:ml-16">
@@ -36,7 +40,8 @@ export const About = () => {
             </div>
               <div>
                   <h3 className="text-center font-bold text-2xl">Vision</h3>
-                  <p className="text-center w-64 phone-sm:w-80 phone-md:w-96 p-2 text-sm">Lo que buscamos es poder facilitar el trabajo en algunas areas, tales como industrias alimenticias, centrales hidroeléctricas de paso, mineria y quimica</p>
+                  <p className="text-center w-64 phone-sm:w-80 phone-md:w-96 p-2 text-sm">
+                    Lo que buscamos es poder facilitar el trabajo en algunas areas, tales como industrias alimenticias, centrales hidroeléctricas de paso, mineria y quimica</p>
               </div>
           </div>
           <div className="border rounded w-64 phone-sm:w-80 phone-md:w-96 phone-lg:w-[400px] phone-lg:mx-24 mx-4 phone-sm:mx-10 phone-md:mx-16 md:mr-32">
