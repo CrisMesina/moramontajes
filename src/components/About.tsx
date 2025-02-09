@@ -12,7 +12,7 @@ export const About = () => {
               <p className="w-full phone-sm:w-100 phone-md:w-[500px] phone-lg:w-[600px] md:w-full text-center p-1 mt-16">
                 Somos una empresa especilizada en fabricación y montaje de equipos de procesos, 
                 destinados a la industria alimenticia, 
-                centrales hidroeléctricas de paso, mineria y química.
+                centrales hidroeléctricas de paso, mineria y química
               </p>
               <div className="">
                 <img src="/logo.png" className="invisible w-0"/>
