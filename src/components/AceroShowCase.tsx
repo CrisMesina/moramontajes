@@ -22,7 +22,11 @@ const Acero: acero[] = [
   {
     id:5,
     imgURL:"/Acero10.JPG"
-  }
+  },
+  {
+    id:5,
+    imgURL:"/Acero11.jpg"
+  },
 
 ];
 

@@ -10,9 +10,15 @@ export const About = () => {
           <div className="flex font-bold text-xl">
             <div className="flex mt-18">
               <p className="w-full phone-sm:w-100 phone-md:w-[500px] phone-lg:w-[600px] md:w-full text-center p-1 mt-16">
-              Somos una empresa especializada en la fabricación y montaje de Piping , estructuras metálicas, Transportadores de banda para granel y cajas principalmente trabajando con acero inoxidable y carbono.
-Buscamos siempre ser un aliado estratégico de nuestros clientes, entregando soluciones acorde a sus necesidades, respetando los protocolos de seguridad, medio ambiente y calidad, siempre en búsqueda de la mejora continua tanto en nuestros procesos como en los de nuestros clientes.
-Desde 1981, entregamos las mejores soluciones a necesidades específicas de nuestros clientes con productos de alta calidad, excelentes terminaciones y óptimo servicio, adaptándonos a las constantes exigencias del mercado con entregas oportunas y precios competitivos.
+              Somos una empresa especializada en la fabricación y montaje de Piping , estructuras metálicas,
+               Transportadores de banda para granel y cajas principalmente trabajando con acero inoxidable
+                y carbono.
+                Buscamos siempre ser un aliado estratégico de nuestros clientes, entregando soluciones acorde a sus necesidades
+                , respetando los protocolos de seguridad, medio ambiente y calidad, siempre en búsqueda de la mejora continua tanto
+                 en nuestros procesos como en los de nuestros clientes.
+                Desde 1981, entregamos las mejores soluciones a necesidades específicas de nuestros clientes con productos de alta
+                 calidad, excelentes terminaciones y óptimo servicio, adaptándonos a las constantes exigencias del mercado con entregas
+                 oportunas y precios competitivos.
 
               </p>
               <div className="">
