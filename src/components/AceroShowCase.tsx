@@ -9,7 +9,7 @@ const Acero: acero[] = [
   },
   {
     id: 2,
-    imgURL: "/Acero2.JPG",
+    imgURL: "/Acero2.jpg",
   },
   {
     id: 3,
@@ -17,11 +17,11 @@ const Acero: acero[] = [
   },
   {
     id:4,
-    imgURL: "/Acero4.JPG"
+    imgURL: "/Acero4.jpg"
   },
   {
     id:5,
-    imgURL:"/Acero5.JPG"
+    imgURL:"/Acero5.jpg"
   },
   {
     id:6,

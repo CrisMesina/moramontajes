@@ -10,15 +10,15 @@ const Banda: banda[] = [
   },
   {
     id: 2,
-    imgURL: "/Banda2.JPG",
+    imgURL: "/Banda2.jpg",
   },
   {
     id: 3,
-    imgURL: "/Banda3.JPG",
+    imgURL: "/Banda3.jpg",
   },
   {
     id:4,
-    imgURL: "/Banda4.JPG"
+    imgURL: "/Banda4.jpg"
   },
   {
     id:5,
