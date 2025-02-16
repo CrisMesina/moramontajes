@@ -5,29 +5,33 @@ import AceroSlider from './AceroSlider';
 const Acero: acero[] = [
   {
     id: 1,
-    imgURL: "/Acero6.JPG",
+    imgURL: "/Acero1.jpg",
   },
   {
     id: 2,
-    imgURL: "/Acero7.JPG",
+    imgURL: "/Acero2.JPG",
   },
   {
     id: 3,
-    imgURL: "/Acero8.JPG",
+    imgURL: "/Acero3.JPG",
   },
   {
     id:4,
-    imgURL: "/Acero9.JPG"
+    imgURL: "/Acero4.JPG"
   },
   {
     id:5,
-    imgURL:"/Acero10.JPG"
+    imgURL:"/Acero5.JPG"
   },
   {
-    id:5,
-    imgURL:"/Acero11.jpg"
+    id:6,
+    imgURL:"/Acero6.JPG"
   },
-
+  {
+    id:7,
+    imgURL:"/Acero7.jpg"
+  },
+  
 ];
 
 const AceroShowCase: React.FC = () => {

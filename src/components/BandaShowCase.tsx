@@ -6,27 +6,27 @@ import BandaSlider from './BandaSlider';
 const Banda: banda[] = [
   {
     id: 1,
-    imgURL: "/Banda6.JPG",
+    imgURL: "/Banda1.JPG",
   },
   {
     id: 2,
-    imgURL: "/Banda7.JPG",
+    imgURL: "/Banda2.JPG",
   },
   {
     id: 3,
-    imgURL: "/Banda8.JPG",
+    imgURL: "/Banda3.JPG",
   },
   {
     id:4,
-    imgURL: "/Banda9.JPG"
+    imgURL: "/Banda4.JPG"
   },
   {
     id:5,
-    imgURL:"/Banda10.JPG"
+    imgURL:"/Banda5.jpg"
   },
   {
     id:6,
-    imgURL:"/Banda11.jpg"
+    imgURL:"/Banda6.JPG"
   },
 ];
 

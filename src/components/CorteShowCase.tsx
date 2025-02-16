@@ -6,7 +6,7 @@ import { CorteSlider } from './CorteSlider';
 const Corte: corte[] = [
   {
     id: 1,
-    imgURL: "/Corte.JPG",
+    imgURL: "/Corte1.JPG",
   },
   {
     id: 2,
@@ -14,16 +14,13 @@ const Corte: corte[] = [
   },
   {
     id: 3,
-    imgURL: "/Corte3.JPEG",
+    imgURL: "/Corte3.JPG",
   },
   {
     id:4,
-    imgURL: "/Corte4.jpg"
+    imgURL: "/Corte4.JPG"
   },
-  {
-    id:5,
-    imgURL:"/Corte5.jpg"
-  }
+  
 ];
 
 export const CorteShowCase: React.FC = () => {
