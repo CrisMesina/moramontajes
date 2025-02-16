@@ -18,7 +18,7 @@ const Corte: corte[] = [
   },
   {
     id:4,
-    imgURL: "/Corte4.JPG"
+    imgURL: "/Corte4.jpg"
   },
   
 ];
