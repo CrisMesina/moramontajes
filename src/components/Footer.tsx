@@ -39,9 +39,6 @@ export const Footer = () => {
                             <span className="mx-4"> +56 9 92278159</span>
                         </div>
                         <div className="flex">
-                            <span className="mx-4"> Juan Carlos Mora</span>
-                        </div>
-                        <div className="flex">
                             <span className="mx-4"> +56 9 67316510</span>
                         </div>
                     </div>
