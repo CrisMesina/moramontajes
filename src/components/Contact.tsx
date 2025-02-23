@@ -12,11 +12,12 @@ export const Contact = () => {
                 <div className="w-96 xs:w-72 200:w-40 h-80 mx-auto mb-10 bg-slate-300 rounded-lg ">
                     <IoLogoWhatsapp className="w-24 h-24 mx-auto" fill="green"/>
                     <p className="text-center p-2 xs:p-1">Mediante whatsapp a los siguientes numeros</p>
+                    <p className="text-center p-2 xs:p-0">Juan Carlos Mora</p>
                     <p className="text-center p-2 xs:p-0">+56 9 92278159</p>
+                    <p className="text-center p-2 xs:p-0">Claudio Mesina</p>
                     <p className="text-center p-2 xs:p-0">+56 9 67316510</p>
                     <p className="text-center">
-                        En caso de no ser respondido por ninguno de los dos numeros,
-                        haga uso de el otro metodo de contacto.
+                        
                     </p>
                 </div>
                 <div className="w-96 xs:w-72 h-80 mx-auto bg-slate-300 rounded-lg">
