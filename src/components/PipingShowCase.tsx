@@ -1,8 +1,7 @@
 import React from 'react';
-import PipingSlider from './PipingSlider';
-import { piping } from '../types/Items_Slider';
+import { PipingSlider } from './PipingSlider';
 
-const Piping: piping[] = [
+const imagenes = [
   {
     id: 1,
     imgURL: "/Piping1.jpg",
@@ -27,9 +26,12 @@ const Piping: piping[] = [
 
 const PipingShowCase: React.FC = () => {
   return (
-    <div className="min-h-screen flex items-center mt-20 justify-center">
-        <PipingSlider piping={Piping} />
-    </div>
+    <>
+      
+      <div className="min-h-screen flex items-center mt-20 justify-center">
+        <PipingSlider slides={imagenes} />
+      </div>
+    </>
   );
 };
 

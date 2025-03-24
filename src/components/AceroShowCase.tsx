@@ -1,8 +1,7 @@
 import React from 'react';
-import { acero } from '../types/Items_Slider';
-import AceroSlider from './AceroSlider';
+import {AceroSlider} from './AceroSlider';
 
-const Acero: acero[] = [
+const images= [
   {
     id: 1,
     imgURL: "/Acero1.jpg",
@@ -37,7 +36,7 @@ const Acero: acero[] = [
 const AceroShowCase: React.FC = () => {
   return (
     <div className="min-h-screen flex items-center mt-20 justify-center">
-        <AceroSlider acero={Acero} />
+        <AceroSlider slides={images} />
     </div>
   );
 };

@@ -1,18 +1,24 @@
 
 
-export interface piping{
-    id:number,
-    imgURL:string,
+export interface PipingSliderProps{
+    slides:{
+        id: number,
+        imgURL: string,
+    }[]
 }
 
-export interface acero{
-    id: number, 
-    imgURL:string,
+export interface AceroSliderProps{
+    slides:{
+        id: number,
+        imgURL: string,
+    }[]
 }
 
-export interface banda{
-    id:number,
-    imgURL: string,
+export interface BandaSliderProps{
+    slides:{
+        id: number,
+        imgURL: string,
+    }[]
 }
 
 export interface ccp{
@@ -20,7 +26,9 @@ export interface ccp{
     imgURL: string,
 }
 
-export interface corte{
-    id:number,
-    imgURL:string,
+export interface CorteSliderProps{
+    slides:{
+        id: number,
+        imgURL: string,
+    }[]
 }

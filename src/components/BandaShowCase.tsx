@@ -1,9 +1,8 @@
 import React from 'react';
 
-import { banda } from '../types/Items_Slider';
-import BandaSlider from './BandaSlider';
+import {BandaSlider} from './BandaSlider';
 
-const Banda: banda[] = [
+const images = [
   {
     id: 1,
     imgURL: "/Banda1.JPG",
@@ -33,7 +32,7 @@ const Banda: banda[] = [
 const BandaShowCase: React.FC = () => {
   return (
     <div className="min-h-screen flex items-center mt-20 justify-center">
-        <BandaSlider banda={Banda} />
+        <BandaSlider slides={images} />
     </div>
   );
 };

@@ -1,9 +1,8 @@
 import React from 'react';
 
-import { corte } from '../types/Items_Slider';
 import { CorteSlider } from './CorteSlider';
 
-const Corte: corte[] = [
+const images = [
   {
     id: 1,
     imgURL: "/Corte1.JPG",
@@ -26,7 +25,7 @@ const Corte: corte[] = [
 export const CorteShowCase: React.FC = () => {
   return (
     <div className="min-h-screen flex items-center mt-20 justify-center">
-        <CorteSlider corte={Corte} />
+        <CorteSlider slides={images} />
     </div>
   );
 };
